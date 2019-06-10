@@ -21,7 +21,7 @@ public class DemoApplication {
 
     public static void main(String[] args) throws Exception {
         ConfigurableApplicationContext context = SpringApplication.run(DemoApplication.class, args);
-        Socket socket = SocketFactory.getDefault().createSocket("localhost", 12345);
+        /*Socket socket = SocketFactory.getDefault().createSocket("localhost", 12345);
 
         ///////////////////////////
         /// Example 1 send and receive message via java socket directly
@@ -54,6 +54,6 @@ public class DemoApplication {
 
 
         reader.close();
-        context.close();
+        context.close();*/
     }
 }
